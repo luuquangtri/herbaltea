@@ -1,0 +1,40 @@
+@media screen  and (min-width: 240px) and (max-width: 768px) {
+    .header .header-top a{
+        font-size: 12px;
+    }
+    .mid-header{
+        display: none;
+    }
+    .header .main-header img{
+        opacity: 1;
+        width: 60%;
+    }
+    .header .main-header{
+        background: white;
+    }
+    .fixed{
+        position: static;
+    }
+    .btn-menu{
+        right: 0.5rem;
+        top: calc(30% + 13px);
+    }
+    .slideshow{
+        height: 50vh;
+    }
+    .slideshow .slide .title{
+        font-size: 12px;
+    }
+    .text p{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 10px 15px;
+    }
+    .product-dt .product .descr{
+        width: 100%;
+    }
+    .newfeed .owl-stage{
+        margin: 5px;
+    }
+}
