@@ -6,7 +6,7 @@ $color-nav-link:white;
 
 // font-size của các thẻ tilte và discription
 $fz-title:40px;
-$fz-discription:21px;
+$fz-discription:16px;
 // font family
 $ff-title:'SVN-Shintia Script';
 $color-title:#2c4806;
@@ -500,22 +500,25 @@ body::-webkit-scrollbar-thumb {
             font-size: $fz-title;
             font-family: $ff-title;
             color: #5d1c00;
+            margin-bottom: 10px;
+            display: block;
         }
 
         p {
             font-size: $fz-discription;
             text-overflow: ellipsis;
-            line-height: 25px;
+            line-height: 1.375;
             -webkit-line-clamp: 3;
-            height: 75px;
+            height: 70px;
             overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
+            margin-bottom: 30px;
         }
 
         a {
             background: #88b44e;
-            padding: 8px 20px;
+            padding: 13px 40px;
             color: white;
             border-radius: 5px;
             border: 1px solid greenyellow;
@@ -581,6 +584,9 @@ body::-webkit-scrollbar-thumb {
             @include btn-view(#88b44e, white);
         }
     }
+    .mobile-nt{
+        display: none;
+    }
 }
 
 // san pham
@@ -606,7 +612,20 @@ body::-webkit-scrollbar-thumb {
             font-size: $fz-title;
             color: $color-title;
         }
-
+        .owl-stage {
+            margin: 24px;
+            overflow: visible;
+        }
+    
+        .owl-item {
+            box-shadow: 0;
+            transition: 1s all;
+            webkit-transition: 1s all;
+        }
+        .owl-theme .owl-dots, .owl-theme .owl-nav{
+            display: none;
+        }
+        
         .descr {
             width: 315px;
             margin: -60px auto 0;
@@ -843,7 +862,9 @@ body::-webkit-scrollbar-thumb {
             }
         }
     }
-
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+        display: none;
+    }
 }
 
 .footer {
@@ -874,7 +895,7 @@ body::-webkit-scrollbar-thumb {
     .submit-dk {
         border: none;
         background: #c7c7c7;
-        margin-top: 15px;
+        margin-top: 20px;
         padding: 10px 20px;
         border-radius: 5px;
         outline: none;

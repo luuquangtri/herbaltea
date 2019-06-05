@@ -295,19 +295,22 @@ body::-webkit-scrollbar-thumb {
   .intro .discription span {
     font-size: 40px;
     font-family: "SVN-Shintia Script";
-    color: #5d1c00; }
+    color: #5d1c00;
+    margin-bottom: 10px;
+    display: block; }
   .intro .discription p {
-    font-size: 21px;
+    font-size: 16px;
     text-overflow: ellipsis;
-    line-height: 25px;
+    line-height: 1.375;
     -webkit-line-clamp: 3;
-    height: 75px;
+    height: 70px;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-box-orient: vertical; }
+    -webkit-box-orient: vertical;
+    margin-bottom: 30px; }
   .intro .discription a {
     background: #88b44e;
-    padding: 8px 20px;
+    padding: 13px 40px;
     color: white;
     border-radius: 5px;
     border: 1px solid greenyellow;
@@ -366,11 +369,22 @@ body::-webkit-scrollbar-thumb {
       color: white;
       border-radius: 5px;
       border: 1px solid greenyellow; }
+  .nghi-thuc .mobile-nt {
+    display: none; }
 
 .product-dt .product h2 {
   font-family: "SVN-Shintia Script";
   font-size: 40px;
   color: #2c4806; }
+.product-dt .product .owl-stage {
+  margin: 24px;
+  overflow: visible; }
+.product-dt .product .owl-item {
+  box-shadow: 0;
+  transition: 1s all;
+  webkit-transition: 1s all; }
+.product-dt .product .owl-theme .owl-dots, .product-dt .product .owl-theme .owl-nav {
+  display: none; }
 .product-dt .product .descr {
   width: 315px;
   margin: -60px auto 0;
@@ -546,6 +560,8 @@ body::-webkit-scrollbar-thumb {
       margin-bottom: 0;
       color: black;
       padding-bottom: 10px; }
+.newfeed .owl-theme .owl-dots, .newfeed .owl-theme .owl-nav {
+  display: none; }
 
 .footer {
   background: #dedede; }
@@ -566,7 +582,7 @@ body::-webkit-scrollbar-thumb {
   .footer .submit-dk {
     border: none;
     background: #c7c7c7;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     outline: none; }

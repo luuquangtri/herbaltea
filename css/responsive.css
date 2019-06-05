@@ -1,68 +1,78 @@
-@media screen  and (min-width: 240px) and (max-width: 768px) {
-    .header .header-top a{
+@media screen and (min-width: 240px) and (max-width: 768px) {
+    .header .header-top a {
         font-size: 12px;
     }
-    .mid-header{
+    .mid-header {
         display: none;
     }
-    .header .main-header img{
+    .header .main-header img {
         opacity: 1;
         width: 60%;
     }
-    .header .main-header{
+    .header .main-header {
         background: white;
     }
-    .fixed{
+    .fixed {
         position: static;
     }
-    .btn-menu{
+    .btn-menu {
         right: 0.5rem;
         top: calc(30% + 13px);
     }
-    .slideshow{
+    .slideshow {
         height: 50vh;
     }
-    .slideshow .slide .title{
+    .slideshow .slide .title {
         font-size: 12px;
     }
-    .text p{
+    .text p {
         font-size: 10px;
     }
-    .btn{
+    .btn {
         padding: 10px 15px;
     }
-    .product-dt .product .descr{
-        width: 100%;
+    .product-dt .product .descr {
+        max-width: 90%;
     }
-    .newfeed .owl-stage{
-        margin: 5px;
+    .newfeed .owl-stage {
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 20px;
     }
-    .fix{
-        width: 50%;
-    }
-    .test-2{
-        width: 50%;
-    }
-    .intro .discription{
-        padding:  0 !important;
-    }
-    .intro .discription span{
-        font-size: 14px;
-    }
-    .intro .discription p{
-        font-size: 12px;
-        text-overflow: ellipsis;
-        line-height: 15px;
-        -webkit-line-clamp: 3;
-        height: 50px;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-    }
-    .intro .discription a{
-        font-size: 12px;
-    }
-    .fix-order{
+    .test-12 {
         order: 1;
     }
+    .intro .discription {
+        padding-top: 10px !important;
+    }
+    .left-mt{
+        display: none;
+    }
+    .mobile-nt{
+        display: block !important;
+        position: relative;
+        text-align: center;
+    }
+    .right-nt::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .right-nt{
+        position: relative;
+    }
+    .nghi-thuc .nd-right-nt h1{
+        font-size: 30px;
+    }
+    .product-dt .product .owl-stage{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 20px;
+    }
+    .product-dt .product article img{
+        width: 98%;
+    }
+    
 }
