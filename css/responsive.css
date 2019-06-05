@@ -37,4 +37,32 @@
     .newfeed .owl-stage{
         margin: 5px;
     }
+    .fix{
+        width: 50%;
+    }
+    .test-2{
+        width: 50%;
+    }
+    .intro .discription{
+        padding:  0 !important;
+    }
+    .intro .discription span{
+        font-size: 14px;
+    }
+    .intro .discription p{
+        font-size: 12px;
+        text-overflow: ellipsis;
+        line-height: 15px;
+        -webkit-line-clamp: 3;
+        height: 50px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .intro .discription a{
+        font-size: 12px;
+    }
+    .fix-order{
+        order: 1;
+    }
 }
