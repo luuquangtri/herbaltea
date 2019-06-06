@@ -194,7 +194,7 @@ body::-webkit-scrollbar-thumb {
                         list-style: none;
 
                         a {
-                            font-size: 20px;
+                            font-size: 16px;
                             color: #88b44e;
                             padding-top: 10px;
                             text-decoration: none;
@@ -202,7 +202,8 @@ body::-webkit-scrollbar-thumb {
                     }
 
                     .fix-shop {
-                        margin-right: 30px;
+                        margin-right: 24px;
+                        margin-top: 10px;
                     }
                 }
 
@@ -562,16 +563,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nghi-thuc {
-    width: 100%;
-
-    .test-w {
-        max-width: 1376px !important;
-    }
-
     .right-nt img {
-        @include text-nghithuc(450px);
+        @include text-nghithuc(100%);
+        width: 100%;
     }
-
+    .left-mt img{
+        width: 100%;
+    }
     .nd-right-nt {
         @include noidung-nt();
         color: white;
@@ -682,18 +680,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mota-ngan {
-    width: 100%;
-
-    .test-w {
-        max-width: 1376px !important;
-    }
 
     .left-mt img {
-        height: 387px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         object-position: center;
     }
-
+    .right-mt img{
+        width: 100% !important;
+    }
     .right-mt {
         .nd-right-mt {
             position: absolute;

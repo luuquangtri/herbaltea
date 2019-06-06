@@ -90,12 +90,13 @@ body::-webkit-scrollbar-thumb {
   .header .mid-header .tilte-shop .ship ul li {
     list-style: none; }
     .header .mid-header .tilte-shop .ship ul li a {
-      font-size: 20px;
+      font-size: 16px;
       color: #88b44e;
       padding-top: 10px;
       text-decoration: none; }
   .header .mid-header .tilte-shop .ship ul .fix-shop {
-    margin-right: 30px; }
+    margin-right: 24px;
+    margin-top: 10px; }
   .header .mid-header .img-card-shop img {
     width: 50px; }
   .header .main-header {
@@ -344,33 +345,32 @@ body::-webkit-scrollbar-thumb {
       -webkit-transform: scale(1, 1);
       transform: scale(1, 1); }
 
-.nghi-thuc {
+.nghi-thuc .right-nt img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   width: 100%; }
-  .nghi-thuc .test-w {
-    max-width: 1376px !important; }
-  .nghi-thuc .right-nt img {
-    height: 450px;
-    object-fit: cover;
-    object-position: center; }
-  .nghi-thuc .nd-right-nt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    transform: translate(-50%, -50%);
-    color: white; }
-    .nghi-thuc .nd-right-nt h1 {
-      font-family: "SVN-Shintia Script";
-      text-transform: none;
-      font-size: 40px; }
-    .nghi-thuc .nd-right-nt a {
-      background: #88b44e;
-      padding: 8px 20px;
-      color: white;
-      border-radius: 5px;
-      border: 1px solid greenyellow; }
-  .nghi-thuc .mobile-nt {
-    display: none; }
+.nghi-thuc .left-mt img {
+  width: 100%; }
+.nghi-thuc .nd-right-nt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  color: white; }
+  .nghi-thuc .nd-right-nt h1 {
+    font-family: "SVN-Shintia Script";
+    text-transform: none;
+    font-size: 40px; }
+  .nghi-thuc .nd-right-nt a {
+    background: #88b44e;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid greenyellow; }
+.nghi-thuc .mobile-nt {
+  display: none; }
 
 .product-dt .product h2 {
   font-family: "SVN-Shintia Script";
@@ -422,26 +422,25 @@ body::-webkit-scrollbar-thumb {
 .product-dt .product article img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.37); }
 
-.mota-ngan {
-  width: 100%; }
-  .mota-ngan .test-w {
-    max-width: 1376px !important; }
-  .mota-ngan .left-mt img {
-    height: 387px;
-    object-fit: cover;
-    object-position: center; }
-  .mota-ngan .right-mt .nd-right-mt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    transform: translate(-50%, -50%); }
-    .mota-ngan .right-mt .nd-right-mt a {
-      background: #88b44e;
-      padding: 8px 20px;
-      color: white;
-      border-radius: 5px;
-      border: 1px solid greenyellow; }
+.mota-ngan .left-mt img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; }
+.mota-ngan .right-mt img {
+  width: 100% !important; }
+.mota-ngan .right-mt .nd-right-mt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%); }
+  .mota-ngan .right-mt .nd-right-mt a {
+    background: #88b44e;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid greenyellow; }
 
 .feedback-kh {
   background-image: url(../images/header/banner-1.png);
