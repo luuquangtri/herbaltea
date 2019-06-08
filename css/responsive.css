@@ -1,3 +1,189 @@
+@media screen and (min-width: 501px) and (max-width: 769px){
+    .header .header-top a {
+        font-size: 12px;
+    }
+    .test-order{
+        order: 1;
+    }
+    .test-order-1{
+        order: 1;
+    }
+    .test-order-2{
+        order: 2;
+    }
+    .btn-menu {
+        display: block !important;
+        top: calc(30% + 13px);
+    }
+    .header .main-header img{
+        width: 30% !important;
+    }
+    .mid-header {
+        display: none;
+    }
+    .header .main-header img {
+        opacity: 1;
+        width: 60%;
+    }
+    .header .main-header {
+        background: white;
+    }
+    .fixed {
+        position: static;
+    }
+    .btn-menu {
+        right: 0.5rem;
+        top: calc(30% + 13px);
+    }
+    .slideshow {
+        height: 50vh;
+    }
+    .slideshow .slide .title {
+        font-size: 12px;
+    }
+    .text p {
+        font-size: 10px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+    .product-dt .product .descr {
+        max-width: 90%;
+    }
+    .newfeed .owl-stage {
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 20px;
+    }
+    .test-12 {
+        order: 1;
+    }
+    .intro .discription {
+        padding-top: 10px !important;
+    }
+    .left-mt {
+        display: none;
+    }
+    .mobile-nt {
+        display: block !important;
+        position: relative;
+        text-align: center;
+    }
+    .right-nt::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .right-nt {
+        position: relative;
+    }
+    .nghi-thuc .nd-right-nt h1 {
+        font-size: 30px;
+    }
+    .product-dt .product .owl-stage {
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 20px;
+    }
+    .product-dt .product article img {
+        width: 98%;
+    }
+    .ft-left, .ft-right {
+        text-align: center !important;
+    }
+    .footer .social {
+        width: 100%;
+    }
+    .ft-mid {
+        margin: 20px 0;
+    }
+    .footer img{
+        width: 20%;
+    }
+    .footer .social{
+        background: transparent;
+    }
+    .footer .input-text {
+        width: 50%;
+    }
+    .footer .submit-dk {
+        width: 50%;
+    }
+    .feedback-kh h1 {
+        font-size: 25px;
+        padding-bottom: 15px !important;
+    }
+    .feedback-kh .item img {
+        margin-top: 15px;
+    }
+    .intro img {
+        max-width: 100% !important;
+    }
+    figure.effect-sadie p {
+        top: 40%;
+    }
+    .grid figure {
+        float: none;
+    }
+    .grid figure img {
+        width: 100%;
+    }
+    .mota-ngan h1 {
+        font-size: 21px;
+    }
+    .nt-mobile {
+        width: 100%;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        -webkit-line-clamp: 3;
+        height: 75px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 1rem !important;
+    }
+    .mtn-mobile {
+        width: 100%;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        -webkit-line-clamp: 3;
+        height: 75px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 1rem !important;
+    }
+    .mota-ngan .right-mt .nd-right-mt {
+        text-align: center;
+    }
+    .mota-ngan .cta::before, .nghi-thuc .cta::before {
+        top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+    .mota-ngan .cta span, .nghi-thuc .cta span {
+        font-size: 14px;
+    }
+    .mota-ngan .right-mt img {
+        height: 100%;
+    }
+    .nghi-thuc .right-nt img {
+        height: 100%;
+    }
+    .feedback-kh .relay p {
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 15px;
+        -webkit-line-clamp: 3;
+        height: 45px;
+    }
+}
+
 @media screen and (min-width: 240px) and (max-width: 500px) {
     .header .header-top a {
         font-size: 12px;
@@ -58,7 +244,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.1);
     }
     .right-nt {
         position: relative;
@@ -138,18 +324,26 @@
     .mota-ngan .right-mt .nd-right-mt {
         text-align: center;
     }
-    .mota-ngan .cta::before,.nghi-thuc .cta::before {
+    .mota-ngan .cta::before, .nghi-thuc .cta::before {
         top: 10px;
         width: 45px;
         height: 45px;
     }
-    .mota-ngan .cta span,.nghi-thuc .cta span{
+    .mota-ngan .cta span, .nghi-thuc .cta span {
         font-size: 14px;
     }
-    .mota-ngan .right-mt img{
+    .mota-ngan .right-mt img {
         height: 300px;
     }
-    .nghi-thuc .right-nt img{
+    .nghi-thuc .right-nt img {
         height: 300px;
+    }
+    .feedback-kh .relay p {
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 15px;
+        -webkit-line-clamp: 3;
+        height: 45px;
     }
 }
