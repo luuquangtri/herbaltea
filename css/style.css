@@ -464,7 +464,7 @@ body::-webkit-scrollbar-thumb {
     background: white;
     color: black;
     transition: 0.3s;
-    border: 1px solid black; }
+    border: 1px solid #88b44e; }
 .product-dt .product article img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.37); }
 
@@ -589,9 +589,9 @@ body::-webkit-scrollbar-thumb {
       font-size: 14px;
       overflow: hidden;
       text-overflow: ellipsis;
-      line-height: 25px;
+      line-height: 20px;
       -webkit-line-clamp: 3;
-      height: 75px;
+      height: 65px;
       display: -webkit-box;
       -webkit-box-orient: vertical; }
     .feedback-kh .relay .customer {
