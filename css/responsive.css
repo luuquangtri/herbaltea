@@ -3,6 +3,43 @@
         opacity: 1;
         width: 30%;
     }
+    .contact-form .name-company,.contact-form h2{
+        font-size: 21px;
+    }
+    .contact-form p{
+        font-size: 14px;
+    }
+    .contact-form a{
+        font-size: 14px;
+    }
+    .contact-form span{
+        font-size: 14px;
+    }
+    .contact-form form label{
+        font-size: 14px;
+        padding: 0 13px;
+    }
+    figure.effect-sadie p{
+        top: 45%;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+    .footer .social{
+        width: 100%;
+    }
+    .footer .fa-youtube, .footer .fa-youtube-play, .footer .fa-youtube-square{
+        font-size: 25px;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+    .footer .input-text{
+        width: 100%;
+    }
+    .navbar-nav{
+        display: none;
+    }
     .header .main-header {
         background: white;
     }
@@ -21,7 +58,16 @@
         display: none;
     }
     .intro .discription {
-        padding: 0 !important;
+        padding: 5px !important;
+    }
+    .intro .discription a{
+        font-size: 14px;
+    }
+    .fz-h2-pd{
+        font-size: 26px !important;
+    }
+    .product-view-all .product-view .sp-fix-height a img{
+        height: 200px;
     }
     .feedback-kh .relay p {
         font-size: 12px;
@@ -34,12 +80,59 @@
     .feedback-kh .relay {
         padding: 10px 20px;
     }
+    .nd-right-nt p {
+        text-align: justify;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        -webkit-line-clamp: 4;
+        height: 80px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 25px !important;
+    }
+    .right-mt .nd-right-mt p{
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        -webkit-line-clamp: 4;
+        height: 80px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 25px !important;
+    }
+    .nghi-thuc .nd-right-nt h1{
+        font-size: 23px;
+    }
+    .nd-right-mt h1{
+        font-size: 26px !important;
+    }
+    .mota-ngan .cta::before, .nghi-thuc .cta::before {
+        top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+    .nghi-thuc .cta span,.mota-ngan .cta span{
+        font-size: 14px;
+    }
+    .intro .discription span{
+        font-size: 26px;
+    }
+    .intro .discription p{
+        font-size: 14px;
+        height: 60px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 767px) {
     .header .header-top a {
         font-size: 12px;
     }
+    /* .contact-form form label{
+        font-size: 14px;
+        padding: 0;
+    } */
     .product-view-all .product-view .sp-fix-height a img {
         height: 250px;
     }
@@ -229,11 +322,17 @@
     .feedback-kh .relay {
         padding: 10px 20px;
     }
-    .card-date span{
+    .card-date span {
         font-size: 13px;
     }
-    .newfeed a .card .card-text{
+    .newfeed a .card .card-text {
         font-size: 14px;
+    }
+    .contact-form #form-contact{
+        width: 100%;
+    }
+    .map{
+        height: 300px;
     }
 }
 
@@ -414,13 +513,36 @@
     .newfeed a .card .card-text {
         font-size: 14px;
     }
-    .product-dt .product h2{
+    .product-dt .product h2 {
         font-size: 30px;
     }
-    .product-view-all .product-view h2{
+    .product-view-all .product-view h2 {
         font-size: 30px;
     }
-    .card-date span{
+    .card-date span {
         font-size: 12px;
+    }
+    .contact-form #form-contact{
+        width: 100%;
+    }
+    .map{
+        height: 300px;
+    }
+    .contact-form .name-company{
+        font-size: 19px;
+        text-align: center;
+    }
+    .contact-form p{
+        font-size: 14px;
+    }
+    .contact-form a{
+        font-size: 14px;
+    }
+    .contact-form h2{
+        text-align: center;
+    }
+    .contact-form span{
+        text-align: center;
+        font-size: 14px;
     }
 }

@@ -32,7 +32,7 @@
                     <li><a href="intro.html">Về chúng tôi</a></li>
                     <li><a href="project.html">dụ án</a></li>
                     <li><a href="">Tin tức</a></li>
-                    <li><a href="#">dịch vụ</a></li>
+                    <!-- <li><a href="#">dịch vụ</a></li> -->
                     <li><a href="contact.html">liên hệ</a></li>
                 </ul>
             </nav>
@@ -98,23 +98,24 @@
                                     <a class="nav-link" href="index.html">Trang chủ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Về chúng tôi</a>
+                                    <a class="nav-link" href="#">Giới thiệu</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Sản phẩm </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Tin tức</a>
+                                    <a class="nav-link" href="#">Tin tức và sự kiện</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Tư vấn</a>
+                                    <a class="nav-link" href="contact.html">Liên hệ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Dịch vụ</a>
+                                    <a class="nav-link" href="#">Tuyển đại lý</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Liên hệ</a>
+                                    <!-- <a class="nav-link" href="#">Dịch vụ</a> -->
                                 </li>
+
                             </ul>
                         </div>
                         <div class="btn-menu">
@@ -837,6 +838,19 @@
                 </div>
             </div>
         </footer>
+        <div id="fixed-social">
+            <div>
+                <a href="#" class="fixed-facebook" target="_blank"><i class="fa fa-facebook"></i>
+                    <span>Facebook</span></a>
+            </div>
+            <div>
+                <a href="#" class="fixed-twitter" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+            </div>
+            <div>
+                <a href="#" class="fixed-linkedin" target="_blank"><i class="fa fa-linkedin"></i>
+                    <span>LinkedIn</span></a>
+            </div>
+        </div>
     </div>
     <!-- end main -->
     <!-- import lib -->
@@ -853,11 +867,7 @@
         new WOW().init();
     </script>
     <script>
-        $(function () {
-            $('nav#menu').mmenu({
-                extensions: ["position-right"]
-            });
-        });
+
     </script>
     <script>
         $('.feed').owlCarousel({

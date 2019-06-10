@@ -278,3 +278,8 @@ $(function() {
       $(this).addClass("active-2");
   })
 });
+$(function () {
+  $('nav#menu').mmenu({
+      extensions: ["position-right"]
+  });
+});
