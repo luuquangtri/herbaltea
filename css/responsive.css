@@ -40,11 +40,12 @@
         font-size: 12px;
     }
     .product-view-all .product-view .sp-fix-height a img{
-        height: auto;
+        height: 250px;
      }
     .test-order{
         order: 1;
     }
+    
     .test-order-1{
         order: 1;
     }
@@ -400,5 +401,8 @@
    }
    .fz-h2-pd{
        font-size: 26px !important;
+   }
+   .footer a{
+       font-size: 14px;
    }
 }
