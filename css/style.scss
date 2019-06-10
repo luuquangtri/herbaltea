@@ -701,7 +701,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         a {
-            // @include btn-view(#88b44e, white);
+            font-family: $ff-discriptions;
         }
     }
 
@@ -784,8 +784,74 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+// 
+.product-view-all {
+    .product-view {
+        h2 {
+            font-family: $ff-title;
+            font-size: $fz-title;
+            font-size: 40px;
+            color: $color-title;
+        }
+
+        .sp-fix-height {
+            a {
+                text-decoration: none;
+                color: #000000;
+                img {
+                    height: 250px;
+                    overflow: hidden;
+                    position: relative;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                span{
+                    font-size: $fz-discription;
+                    font-family: $ff-discriptions;
+                }
+                .price-present{
+                    color: $background-header;
+                }
+                .price-old{
+                    text-decoration: line-through;
+                }
+            }
+            &:hover{
+                box-shadow:0px 0px 10px -3px rgba(0, 0, 0, .7);
+                transform: translateY(-10px);
+                transition: all ease-in 0.3s;
+            }
+        }
+        
+    }
+    .btn-viewer {
+        a {
+            background: black;
+            padding: 10px 40px;
+            color: white;
+            border-radius: 50px;
+            font-family: $ff-title;
+            letter-spacing: 2px;
+
+            &:hover {
+                text-decoration: none;
+                background: white;
+                color: black;
+                transition: 0.3s;
+                border: 1px solid $background-header;
+            }
+        }
+    }
+}
+
+// 
 .mota-ngan {
     @include hover-bt-effect-cta(#376c16de);
+
+    a {
+        font-family: $ff-discriptions;
+    }
 
     .left-mt img {
         width: 100%;
@@ -823,7 +889,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .feedback-kh {
-    background-image: url(../images/header/banner-1.png);
+    background-image: url(../images/banner-web-1.png);
     position: relative;
 
     &::before {
@@ -1083,7 +1149,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .social {
-        background: #efefef;
+        // background: #efefef;
         width: 70%;
         float: right;
         margin-top: 15px;
@@ -1151,7 +1217,7 @@ figure.effect-sadie:hover p {
 
 .grid {
     position: relative;
-    margin: 0 auto;
+    margin: 15px auto;
     max-width: 1000px;
     list-style: none;
     text-align: center;

@@ -429,6 +429,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 40px; }
   .nghi-thuc .nd-right-nt p {
     font-family: "UTM Avo"; }
+  .nghi-thuc .nd-right-nt a {
+    font-family: "UTM Avo"; }
 .nghi-thuc .mobile-nt {
   display: none; }
 
@@ -481,6 +483,46 @@ body::-webkit-scrollbar-thumb {
 .product-dt .product article img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.37); }
 
+.product-view-all .product-view h2 {
+  font-family: "SVN-Shintia Script";
+  font-size: 40px;
+  font-size: 40px;
+  color: #2c4806; }
+.product-view-all .product-view .sp-fix-height a {
+  text-decoration: none;
+  color: #000000; }
+  .product-view-all .product-view .sp-fix-height a img {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .product-view-all .product-view .sp-fix-height a span {
+    font-size: 16px;
+    font-family: "UTM Avo"; }
+  .product-view-all .product-view .sp-fix-height a .price-present {
+    color: #88b44e; }
+  .product-view-all .product-view .sp-fix-height a .price-old {
+    text-decoration: line-through; }
+.product-view-all .product-view .sp-fix-height:hover {
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.7);
+  transform: translateY(-10px);
+  transition: all ease-in 0.3s; }
+.product-view-all .btn-viewer a {
+  background: black;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 50px;
+  font-family: "SVN-Shintia Script";
+  letter-spacing: 2px; }
+  .product-view-all .btn-viewer a:hover {
+    text-decoration: none;
+    background: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid #88b44e; }
+
 .mota-ngan .cta {
   position: relative;
   margin: auto;
@@ -522,6 +564,8 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.3s ease; }
   .mota-ngan .cta:active {
     transform: scale(0.96); }
+.mota-ngan a {
+  font-family: "UTM Avo"; }
 .mota-ngan .left-mt img {
   width: 100%;
   height: 100%;
@@ -541,7 +585,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "SVN-Shintia Script"; }
 
 .feedback-kh {
-  background-image: url(../images/header/banner-1.png);
+  background-image: url(../images/banner-web-1.png);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -728,7 +772,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 30px;
     padding: 10px; }
   .footer .social {
-    background: #efefef;
     width: 70%;
     float: right;
     margin-top: 15px; }
@@ -788,7 +831,7 @@ figure.effect-sadie:hover p {
 
 .grid {
   position: relative;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 1000px;
   list-style: none;
   text-align: center; }

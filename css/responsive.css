@@ -1,7 +1,47 @@
-@media screen and (min-width: 501px) and (max-width: 769px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .header .main-header img {
+        opacity: 1;
+        width: 30%;
+    }
+    .header .main-header {
+        background: white;
+    }
+    .fixed {
+        position: static;
+    }
+    .btn-menu {
+        right: 0.5rem;
+        top: calc(30% + 13px);
+    }
+    .btn-menu {
+        display: block !important;
+        top: calc(30% + 13px);
+    }
+    .mid-header {
+        display: none;
+    }
+    .intro .discription{
+        padding: 0 !important; 
+    }
+    .feedback-kh .relay p {
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 15px;
+        -webkit-line-clamp: 3;
+        height: 45px;
+    }
+    .feedback-kh .relay{
+        padding: 10px 20px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 767px){
     .header .header-top a {
         font-size: 12px;
     }
+    .product-view-all .product-view .sp-fix-height a img{
+        height: auto;
+     }
     .test-order{
         order: 1;
     }
@@ -25,6 +65,9 @@
         opacity: 1;
         width: 60%;
     }
+    .fz-h2-pd{
+        font-size: 26px !important;
+    }
     .header .main-header {
         background: white;
     }
@@ -36,7 +79,7 @@
         top: calc(30% + 13px);
     }
     .slideshow {
-        height: 50vh;
+        height: 100vh;
     }
     .slideshow .slide .title {
         font-size: 12px;
@@ -131,7 +174,7 @@
         width: 100%;
     }
     .mota-ngan h1 {
-        font-size: 21px;
+        font-size: 26px;
     }
     .nt-mobile {
         width: 100%;
@@ -182,11 +225,17 @@
         -webkit-line-clamp: 3;
         height: 45px;
     }
+    .feedback-kh .relay{
+        padding: 18px 20px;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 500px) {
     .header .header-top a {
         font-size: 12px;
+    }
+    .product-view-all .product-view .sp-fix-height a img{
+       height: auto;
     }
     .mid-header {
         display: none;
@@ -348,5 +397,8 @@
     }
    .product.fz-h2-pd{
        font-size: 24px;
+   }
+   .fz-h2-pd{
+       font-size: 26px !important;
    }
 }
