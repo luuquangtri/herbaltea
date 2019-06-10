@@ -9,6 +9,7 @@ $fz-title:40px;
 $fz-discription:16px;
 // font family
 $ff-title:'SVN-Shintia Script';
+$ff-discriptions: 'UTM Avo';
 $color-title:#2c4806;
 // kết thúc hàm cho font
 
@@ -42,12 +43,12 @@ $color-title:#2c4806;
     object-position: center;
 }
 
-@mixin noidung-nt() {
+@mixin noidung-nt($x, $y) {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 60%;
-    transform: translate(-50%, -50%);
+    transform: translate($x, $y);
 }
 
 @mixin hover-bt-effect-cta($mau-nen) {
@@ -639,6 +640,7 @@ body::-webkit-scrollbar-thumb {
             display: -webkit-box;
             -webkit-box-orient: vertical;
             margin-bottom: 30px;
+            font-family: $ff-discriptions;
         }
 
         a {
@@ -656,23 +658,46 @@ body::-webkit-scrollbar-thumb {
 .nghi-thuc {
     @include hover-bt-effect-cta(#376c16de);
 
+    .fix-height-nt {
+        // height: 400px;
+        // overflow: hidden;
+    }
+
     .right-nt img {
         @include text-nghithuc(100%);
         width: 100%;
     }
 
+    .left-mt {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+        }
+    }
+
     .left-mt img {
         width: 100%;
+
+
     }
 
     .nd-right-nt {
-        @include noidung-nt();
+        @include noidung-nt(-50%, -50%);
         color: white;
 
         h1 {
             font-family: $ff-title;
             text-transform: none;
             font-size: $fz-title;
+        }
+
+        p {
+            font-family: $ff-discriptions;
         }
 
         a {
@@ -740,7 +765,10 @@ body::-webkit-scrollbar-thumb {
                 padding: 10px 40px;
                 color: white;
                 border-radius: 50px;
-                &:hover{
+                font-family: $ff-title;
+                letter-spacing: 2px;
+
+                &:hover {
                     text-decoration: none;
                     background: white;
                     color: black;
@@ -781,12 +809,17 @@ body::-webkit-scrollbar-thumb {
             // a {
             //     @include btn-view(#88b44e, white)
             // }
+            p {
+                font-family: $ff-discriptions;
+            }
         }
+
     }
 
     h1 {
         font-family: $ff-title;
     }
+
 }
 
 .feedback-kh {
@@ -858,6 +891,7 @@ body::-webkit-scrollbar-thumb {
             border-right-color: white;
             border-width: 10px;
             margin-top: -24px;
+
         }
 
         p {
@@ -870,6 +904,7 @@ body::-webkit-scrollbar-thumb {
             height: 65px;
             display: -webkit-box;
             -webkit-box-orient: vertical;
+            font-family: $ff-discriptions;
         }
 
         .customer {
@@ -924,6 +959,7 @@ body::-webkit-scrollbar-thumb {
                 margin-bottom: 0;
                 color: black;
                 margin-top: 10px;
+                font-family: $ff-discriptions;
             }
 
             .card-date {
@@ -943,16 +979,19 @@ body::-webkit-scrollbar-thumb {
             }
         }
     }
-    .item{
-        &:hover{
+
+    .item {
+        &:hover {
             transform: translateY(-5px);
             transition: all 0.3s ease-out;
-            .card-title{
+
+            .card-title {
                 color: #88b44e;
                 transition: all 0.3s ease-out;
             }
         }
     }
+
     .owl-theme .owl-dots,
     .owl-theme .owl-nav {
         display: none;
@@ -969,10 +1008,18 @@ body::-webkit-scrollbar-thumb {
     a {
         color: #000000;
         text-decoration: none;
+        font-family: $ff-discriptions;
+        padding: 3px 0px;
+
     }
 
     p {
         font-style: italic;
+        font-family: $ff-discriptions;
+    }
+
+    span {
+        font-family: $ff-discriptions;
     }
 
     .input-text {
@@ -1086,6 +1133,7 @@ figure.effect-sadie p {
     opacity: 0;
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0);
+    font-family: $ff-discriptions;
 }
 
 figure.effect-sadie:hover h2 {

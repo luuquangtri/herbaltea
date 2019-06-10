@@ -352,7 +352,8 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-family: "UTM Avo"; }
   .intro .discription a {
     font-family: "SVN-Shintia Script";
     color: #88b44e; }
@@ -405,6 +406,14 @@ body::-webkit-scrollbar-thumb {
   object-fit: cover;
   object-position: center;
   width: 100%; }
+.nghi-thuc .left-mt {
+  position: relative; }
+  .nghi-thuc .left-mt::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); }
 .nghi-thuc .left-mt img {
   width: 100%; }
 .nghi-thuc .nd-right-nt {
@@ -418,6 +427,8 @@ body::-webkit-scrollbar-thumb {
     font-family: "SVN-Shintia Script";
     text-transform: none;
     font-size: 40px; }
+  .nghi-thuc .nd-right-nt p {
+    font-family: "UTM Avo"; }
 .nghi-thuc .mobile-nt {
   display: none; }
 
@@ -458,7 +469,9 @@ body::-webkit-scrollbar-thumb {
   background: black;
   padding: 10px 40px;
   color: white;
-  border-radius: 50px; }
+  border-radius: 50px;
+  font-family: "SVN-Shintia Script";
+  letter-spacing: 2px; }
   .product-dt .product .btn-viewer a:hover {
     text-decoration: none;
     background: white;
@@ -522,6 +535,8 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   width: 60%;
   transform: translate(-50%, -50%); }
+  .mota-ngan .right-mt .nd-right-mt p {
+    font-family: "UTM Avo"; }
 .mota-ngan h1 {
   font-family: "SVN-Shintia Script"; }
 
@@ -593,7 +608,8 @@ body::-webkit-scrollbar-thumb {
       -webkit-line-clamp: 3;
       height: 65px;
       display: -webkit-box;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      font-family: "UTM Avo"; }
     .feedback-kh .relay .customer {
       font-weight: 600;
       height: auto; }
@@ -632,7 +648,8 @@ body::-webkit-scrollbar-thumb {
       -webkit-box-orient: vertical;
       margin-bottom: 0;
       color: black;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-family: "UTM Avo"; }
     .newfeed a .card .card-date {
       margin-bottom: 0;
       color: #a3a5ff; }
@@ -659,9 +676,14 @@ body::-webkit-scrollbar-thumb {
     width: 50%; }
   .footer a {
     color: #000000;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: "UTM Avo";
+    padding: 3px 0px; }
   .footer p {
-    font-style: italic; }
+    font-style: italic;
+    font-family: "UTM Avo"; }
+  .footer span {
+    font-family: "UTM Avo"; }
   .footer .input-text {
     width: 90%;
     border-radius: 10px;
@@ -750,7 +772,8 @@ figure.effect-sadie p {
   width: 100%;
   opacity: 0;
   -webkit-transform: translate3d(0, 10px, 0);
-  transform: translate3d(0, 10px, 0); }
+  transform: translate3d(0, 10px, 0);
+  font-family: "UTM Avo"; }
 
 figure.effect-sadie:hover h2 {
   color: #fff;

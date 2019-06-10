@@ -346,4 +346,7 @@
         -webkit-line-clamp: 3;
         height: 45px;
     }
+   .product.fz-h2-pd{
+       font-size: 24px;
+   }
 }
