@@ -1610,3 +1610,39 @@ figure.effect-sadie:hover p {
         }
     }
 }
+
+// newfeed detail
+
+.newfeed-detail{
+    h2{
+        font-family: $ff-title;
+        font-size: $fz-title;
+        color: $background-header;
+    }
+    span{
+        font-family: $ff-title;
+        font-size: 26px;
+    }
+    p{
+        font-size: $fz-discription;
+        font-family: $ff-discriptions;
+        color: #000000;
+        em{
+            color: #a3a5ff;
+        }
+    }
+    a{
+        color: #000000;
+        font-size: $fz-discription;
+        font-family: $ff-discriptions;
+        padding: 5px 0px;
+        text-decoration: none;
+        &:hover{
+            color: $background-header;
+        }
+    }
+    .fa-chevron-right{
+        padding-right: 10px;
+        font-size: 12px;
+    }
+}

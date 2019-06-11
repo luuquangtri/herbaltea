@@ -136,6 +136,22 @@
         font-size: 14px;
         text-align: justify;
     }
+    .newfeed-detail h2{
+        font-size: 26px;
+    }
+    .newfeed-detail span{
+        font-size: 21px;
+    }
+    .newfeed-detail p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .content-newfeed{
+        margin-bottom: 0px !important;
+    }
+    .newfeed-detail a{
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 767px) {
@@ -366,6 +382,19 @@
         font-size: 14px;
         text-align: justify;
     }
+    .newfeed-detail h2{
+        font-size: 26px;
+    }
+    .newfeed-detail span{
+        font-size: 21px;
+    }
+    .newfeed-detail p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .content-newfeed{
+        margin-bottom: 0px !important;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 500px) {
@@ -595,5 +624,18 @@
     }
     .navigation-newfeed a .card .card-text{
         font-size: 14px;
+    }
+    .newfeed-detail h2{
+        font-size: 26px;
+    }
+    .newfeed-detail span{
+        font-size: 21px;
+    }
+    .newfeed-detail p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .content-newfeed{
+        margin-bottom: 0px !important;
     }
 }

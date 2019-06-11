@@ -1086,4 +1086,29 @@ figure.effect-sadie:hover p {
   .navigation-newfeed .card:hover .card-title {
     color: #88b44e; }
 
+.newfeed-detail h2 {
+  font-family: "SVN-Shintia Script";
+  font-size: 40px;
+  color: #88b44e; }
+.newfeed-detail span {
+  font-family: "SVN-Shintia Script";
+  font-size: 26px; }
+.newfeed-detail p {
+  font-size: 16px;
+  font-family: "UTM Avo";
+  color: #000000; }
+  .newfeed-detail p em {
+    color: #a3a5ff; }
+.newfeed-detail a {
+  color: #000000;
+  font-size: 16px;
+  font-family: "UTM Avo";
+  padding: 5px 0px;
+  text-decoration: none; }
+  .newfeed-detail a:hover {
+    color: #88b44e; }
+.newfeed-detail .fa-chevron-right {
+  padding-right: 10px;
+  font-size: 12px; }
+
 /*# sourceMappingURL=style.css.map */
