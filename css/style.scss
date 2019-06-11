@@ -91,7 +91,7 @@ $color-title:#2c4806;
     }
 }
 
-@mixin hover-bt-effect-cta($mau-nen) {
+@mixin hover-bt-effect-cta($mau-nen, $mau-chu, $mau-mui-ten) {
     .cta {
         position: relative;
         margin: auto;
@@ -129,7 +129,8 @@ $color-title:#2c4806;
             position: relative;
             font-size: 18px;
             line-height: 18px;
-            color: white;
+            color: $mau-chu;
+            font-family: $ff-discriptions;
         }
 
         svg {
@@ -139,7 +140,7 @@ $color-title:#2c4806;
             fill: none;
             stroke-linecap: round;
             stroke-linejoin: round;
-            stroke: #ffffff;
+            stroke: $mau-mui-ten;
             ;
             stroke-width: 2;
             transform: translateX(-5px);
@@ -265,7 +266,7 @@ body::-webkit-scrollbar-thumb {
 .line-end {
     width: 100%;
     height: 2px;
-    background: white;
+    background: #dedede;
 }
 
 .fixed {
@@ -696,7 +697,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nghi-thuc {
-    @include hover-bt-effect-cta(#376c16de);
+    @include hover-bt-effect-cta(#376c16de,white,white);
 
     .fix-height-nt {
         // height: 400px;
@@ -893,7 +894,7 @@ body::-webkit-scrollbar-thumb {
 
 // 
 .mota-ngan {
-    @include hover-bt-effect-cta(#376c16de);
+    @include hover-bt-effect-cta(#376c16de,white,white);
 
     a {
         font-family: $ff-discriptions;
@@ -1604,7 +1605,8 @@ figure.effect-sadie:hover p {
             box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.7);
             transform: translateY(-10px);
             transition: all ease-in 0.3s;
-            .card-title{
+
+            .card-title {
                 color: $background-header;
             }
         }
@@ -1613,36 +1615,80 @@ figure.effect-sadie:hover p {
 
 // newfeed detail
 
-.newfeed-detail{
-    h2{
+.newfeed-detail {
+    h2 {
         font-family: $ff-title;
         font-size: $fz-title;
         color: $background-header;
     }
-    span{
+
+    span {
         font-family: $ff-title;
         font-size: 26px;
     }
-    p{
+
+    p {
         font-size: $fz-discription;
         font-family: $ff-discriptions;
         color: #000000;
-        em{
+
+        em {
             color: #a3a5ff;
         }
     }
-    a{
+
+    a {
         color: #000000;
         font-size: $fz-discription;
         font-family: $ff-discriptions;
         padding: 5px 0px;
         text-decoration: none;
-        &:hover{
+
+        &:hover {
             color: $background-header;
         }
     }
-    .fa-chevron-right{
+
+    .fa-chevron-right {
         padding-right: 10px;
         font-size: 12px;
+    }
+}
+
+// sanpham-detail
+.sanpham-detail {
+    h2 {
+        font-family: $ff-title;
+        font-size: $fz-title;
+        color: $background-header;
+    }
+    h3{
+        font-family: $ff-discriptions;
+        font-size: 21px;
+        font-weight: bold;
+        color: $background-header;
+    }
+    span.price-present {
+        color: red;
+        font-family: $ff-discriptions;
+        padding-right: 20px;
+        font-size: 21px;
+    }
+
+    span.price-old {
+        text-decoration: line-through;
+        font-family: $ff-discriptions;
+    }
+    p{
+        font-family: $ff-discriptions;
+        font-size: $fz-discription;
+        .stocking{
+            font-weight: bold;
+            color: $background-header;
+        }
+    }
+    @include hover-bt-effect-cta(#69cf29de,black,black);
+    .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover{
+        border: 2px solid $background-header;
     }
 }
