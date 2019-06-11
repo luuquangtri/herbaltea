@@ -976,21 +976,21 @@ figure.effect-sadie:hover p {
       z-index: 1;
       opacity: 0; }
   #fixed-social .fixed-facebook {
-    background-color: #3b5998; }
+    background-color: #88b44e; }
   #fixed-social .fixed-facebook span {
-    background-color: #3b5998; }
+    background-color: #88b44e; }
   #fixed-social .fixed-twitter {
-    background-color: #00aae5; }
+    background-color: #88b44e; }
   #fixed-social .fixed-twitter span {
-    background-color: #00aae5; }
+    background-color: #88b44e; }
   #fixed-social .fixed-gplus {
     background-color: #00AF54; }
   #fixed-social .fixed-gplus span {
     background-color: #00AF54; }
   #fixed-social .fixed-linkedin {
-    background-color: #FFC41E; }
+    background-color: #88b44e; }
   #fixed-social .fixed-linkedin span {
-    background-color: #FFC41E; }
+    background-color: #88b44e; }
   #fixed-social .fixed-instagrem {
     background-color: #ED2B29; }
   #fixed-social .fixed-instagrem span {
@@ -1001,5 +1001,89 @@ figure.effect-sadie:hover p {
     background-color: #EB1471; }
 
 /*end fixed social*/
+.utdl h2 {
+  font-family: "SVN-Shintia Script";
+  font-size: 40px;
+  color: #88b44e; }
+.utdl span {
+  font-family: "UTM Avo";
+  font-size: 16px; }
+.utdl label {
+  font-family: "UTM Avo";
+  font-size: 16px; }
+.utdl .btn-submit {
+  background: #e9ecef;
+  padding: 8px 20px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid greenyellow;
+  margin-bottom: 20px;
+  font-family: "UTM Avo"; }
+.utdl input::placeholder {
+  font-style: italic;
+  font-family: "UTM Avo"; }
+.utdl .form-control:focus {
+  border-color: #88b44e;
+  box-shadow: none; }
+
+.introduce h2 {
+  font-family: "SVN-Shintia Script";
+  font-size: 40px;
+  color: #88b44e; }
+.introduce p {
+  font-family: "UTM Avo";
+  font-size: 16px; }
+.introduce .img-left img {
+  width: 370px;
+  height: 450px;
+  margin: 10px; }
+
+.navigation-newfeed h2 {
+  font-family: "SVN-Shintia Script";
+  font-size: 40px;
+  color: #88b44e; }
+.navigation-newfeed .nav-tabs .nav-item.show .nav-link,
+.navigation-newfeed .nav-tabs .nav-link.active {
+  border: none;
+  color: #88b44e; }
+.navigation-newfeed .nav-link:focus,
+.navigation-newfeed .nav-link:hover {
+  border: none; }
+.navigation-newfeed .nav-tabs .nav-link {
+  font-size: 16px;
+  font-family: "UTM Avo";
+  color: #000000; }
+.navigation-newfeed a {
+  text-decoration: none; }
+  .navigation-newfeed a .card {
+    border: none; }
+    .navigation-newfeed a .card .card-text {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 25px;
+      -webkit-line-clamp: 2;
+      height: 55px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      margin-bottom: 0;
+      color: black;
+      margin-top: 10px;
+      font-family: "UTM Avo"; }
+    .navigation-newfeed a .card .card-date {
+      margin-bottom: 0;
+      color: #a3a5ff; }
+    .navigation-newfeed a .card .card-body {
+      padding: 0.75rem; }
+    .navigation-newfeed a .card .card-title {
+      margin-bottom: 0;
+      color: black;
+      padding-bottom: 10px;
+      font-family: "SVN-Shintia Script"; }
+.navigation-newfeed .card:hover {
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.7);
+  transform: translateY(-10px);
+  transition: all ease-in 0.3s; }
+  .navigation-newfeed .card:hover .card-title {
+    color: #88b44e; }
 
 /*# sourceMappingURL=style.css.map */

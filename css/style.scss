@@ -51,6 +51,46 @@ $color-title:#2c4806;
     transform: translate($x, $y);
 }
 
+@mixin newfeed {
+    a {
+        text-decoration: none;
+
+        .card {
+            border: none;
+
+            .card-text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 25px;
+                -webkit-line-clamp: 2;
+                height: 55px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                margin-bottom: 0;
+                color: black;
+                margin-top: 10px;
+                font-family: $ff-discriptions;
+            }
+
+            .card-date {
+                margin-bottom: 0;
+                color: #a3a5ff;
+            }
+
+            .card-body {
+                padding: 0.75rem;
+            }
+
+            .card-title {
+                margin-bottom: 0;
+                color: black;
+                padding-bottom: 10px;
+                font-family: $ff-title;
+            }
+        }
+    }
+}
+
 @mixin hover-bt-effect-cta($mau-nen) {
     .cta {
         position: relative;
@@ -1276,64 +1316,76 @@ figure.effect-sadie:hover p {
 }
 
 // contact
-.contact-form{
-    input{
+.contact-form {
+    input {
         border: 1px solid #efefef;
         border-radius: 5px;
         background-color: #e9ecef;
     }
-    input::placeholder{
+
+    input::placeholder {
         font-style: italic;
         font-family: $ff-discriptions;
     }
-    .form-control:focus{
+
+    .form-control:focus {
         border-color: $background-header;
         box-shadow: none;
     }
-    textarea{
+
+    textarea {
         width: 100%;
         height: 100px;
         border: 1px solid #efefef;
         border-radius: 5px;
         background-color: #e9ecef;
     }
-    textarea:focus{
+
+    textarea:focus {
         border-color: $background-header;
         box-shadow: none;
         outline: none;
     }
-    textarea::placeholder{
+
+    textarea::placeholder {
         font-style: italic;
         font-family: $ff-discriptions;
         padding-left: 10px;
     }
-    h2{
+
+    h2 {
         font-family: $ff-title;
         font-size: 26px;
         padding: 20px 10px 0 0;
         color: $background-header;
     }
-    span{
+
+    span {
         font-size: $fz-discription;
         font-family: $ff-discriptions;
         margin-bottom: 20px;
     }
-    .name-company{
+
+    .name-company {
         font-size: 26px;
         color: #000000;
     }
-    form{
+
+    form {
         margin-top: 20px;
-        label{
+
+        label {
             font-size: $fz-discription;
             font-family: $ff-discriptions;
         }
     }
-    p{
+
+    p {
         font-size: $fz-discription;
         font-family: $ff-discriptions;
     }
-    a{
+
+    a {
         color: black;
         text-decoration: none;
         font-size: $fz-discription;
@@ -1341,22 +1393,26 @@ figure.effect-sadie:hover p {
         margin-bottom: 15px;
 
     }
-    .fa-location-arrow{
+
+    .fa-location-arrow {
         font-size: 20px;
         padding-right: 10px;
         color: #cd0a0a;
     }
-    .fa-phone{
+
+    .fa-phone {
         font-size: 20px;
         padding-right: 10px;
         color: #cd0a0a;
     }
-    .fa-envelope-o{
+
+    .fa-envelope-o {
         font-size: 20px;
         padding-right: 10px;
         color: #cd0a0a;
     }
-    .btn-submit{
+
+    .btn-submit {
         @include btn-view(#e9ecef, black);
         margin-bottom: 20px;
         font-family: $ff-discriptions;
@@ -1400,58 +1456,157 @@ figure.effect-sadie:hover p {
             opacity: 0;
         }
     }
+
     .fixed-facebook {
-        background-color: #3b5998;
+        background-color: $background-header;
     }
-    
+
     .fixed-facebook span {
-        background-color: #3b5998;
+        background-color: $background-header;
     }
-    
+
     .fixed-twitter {
-        background-color: #00aae5;
-    
+        background-color: $background-header;
+
     }
-    
+
     .fixed-twitter span {
-        background-color: #00aae5;
+        background-color: $background-header;
     }
-    
+
     .fixed-gplus {
         background-color: #00AF54;
-    
+
     }
-    
+
     .fixed-gplus span {
         background-color: #00AF54;
     }
-    
+
     .fixed-linkedin {
-        background-color: #FFC41E;
-    
+        background-color: $background-header;
+
     }
-    
+
     .fixed-linkedin span {
-        background-color: #FFC41E;
+        background-color: $background-header;
     }
-    
+
     .fixed-instagrem {
         background-color: #ED2B29;
-    
+
     }
-    
+
     .fixed-instagrem span {
         background-color: #ED2B29;
     }
-    
+
     .fixed-tumblr {
         background-color: #EB1471;
-    
+
     }
-    
+
     .fixed-tumblr span {
         background-color: #EB1471;
     }
 }
 
 /*end fixed social*/
+
+// ứng tuyển đại lý
+.utdl {
+    h2 {
+        font-family: $ff-title;
+        font-size: $fz-title;
+        color: $background-header;
+    }
+
+    span {
+        font-family: $ff-discriptions;
+        font-size: $fz-discription;
+    }
+
+    label {
+        font-family: $ff-discriptions;
+        font-size: $fz-discription;
+    }
+
+    .btn-submit {
+        @include btn-view(#e9ecef, black);
+        margin-bottom: 20px;
+        font-family: $ff-discriptions;
+    }
+
+    input::placeholder {
+        font-style: italic;
+        font-family: $ff-discriptions;
+    }
+
+    .form-control:focus {
+        border-color: $background-header;
+        box-shadow: none;
+    }
+}
+
+// introduce
+.introduce {
+    h2 {
+        font-family: $ff-title;
+        font-size: $fz-title;
+        color: $background-header;
+    }
+
+    p {
+        font-family: $ff-discriptions;
+        font-size: $fz-discription;
+    }
+
+    .img-left img {
+        width: 370px;
+        height: 450px;
+        margin: 10px;
+    }
+}
+
+
+// tin tức và sự kiện
+
+.navigation-newfeed {
+    h2 {
+        font-family: $ff-title;
+        font-size: $fz-title;
+        color: $background-header;
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        border: none;
+        color: $background-header;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        border: none;
+    }
+
+    .nav-tabs {
+        .nav-link {
+            font-size: $fz-discription;
+            font-family: $ff-discriptions;
+            color: #000000;
+        }
+    }
+
+    @include newfeed();
+
+    .card {
+        &:hover {
+            box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.7);
+            transform: translateY(-10px);
+            transition: all ease-in 0.3s;
+            .card-title{
+                color: $background-header;
+            }
+        }
+    }
+}
