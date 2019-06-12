@@ -697,7 +697,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nghi-thuc {
-    @include hover-bt-effect-cta(#376c16de,white,white);
+    @include hover-bt-effect-cta(#376c16de, white, white);
 
     .fix-height-nt {
         // height: 400px;
@@ -894,7 +894,7 @@ body::-webkit-scrollbar-thumb {
 
 // 
 .mota-ngan {
-    @include hover-bt-effect-cta(#376c16de,white,white);
+    @include hover-bt-effect-cta(#376c16de, white, white);
 
     a {
         font-family: $ff-discriptions;
@@ -1662,12 +1662,14 @@ figure.effect-sadie:hover p {
         font-size: $fz-title;
         color: $background-header;
     }
-    h3{
+
+    h3 {
         font-family: $ff-discriptions;
         font-size: 21px;
         font-weight: bold;
         color: $background-header;
     }
+
     span.price-present {
         color: red;
         font-family: $ff-discriptions;
@@ -1679,16 +1681,148 @@ figure.effect-sadie:hover p {
         text-decoration: line-through;
         font-family: $ff-discriptions;
     }
-    p{
+
+    p {
         font-family: $ff-discriptions;
         font-size: $fz-discription;
-        .stocking{
+
+        .stocking {
             font-weight: bold;
             color: $background-header;
         }
     }
-    @include hover-bt-effect-cta(#69cf29de,black,black);
-    .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover{
+
+    @include hover-bt-effect-cta(#69cf29de, black, black);
+
+    .lSSlideOuter .lSPager.lSGallery li.active,
+    .lSSlideOuter .lSPager.lSGallery li:hover {
         border: 2px solid $background-header;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            .name {
+                color: $background-header;
+                transition: 0.3s;
+            }
+
+            img.item-img-sp {
+                transform: scale(1.05);
+                transition: all ease-in 0.3s;
+            }
+
+        }
+    }
+
+    .name {
+        font-size: $fz-discription;
+        font-family: $ff-discriptions;
+        color: #000000;
+    }
+
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .sanpham-lienquan {
+        .price-old {
+            color: #000000;
+        }
+
+        .owl-stage-outer {
+            padding: 10px;
+        }
+
+        img.item-img-sp {
+            max-width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+    }
+}
+
+
+//check card
+// .check-card{
+//     font-size: 12px;
+//     width: 230px;
+//     background: #efefef;
+//     padding: 15px 15px;
+//     position: absolute;
+//     top: 75%;
+//     pointer-events: none;
+//     opacity: 1;
+//     border: 1px solid $background-header;
+//     p{
+//         padding: 0;
+//         margin: 0;
+
+//     }
+// }
+// .hvr-card{
+//     &:hover{
+//         .check-card{
+//             opacity: 1;
+//             transition: ease 0.3s all;
+//             pointer-events: all;
+//         }
+//     }
+// }
+
+// san pham chính
+.sp-view-full {
+    h2 {
+        font-size: 26px;
+        font-family: $ff-title;
+        color: $background-header;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background: $background-header;
+    }
+
+    .nav-link {
+        font-family: $ff-discriptions;
+        font-size: $fz-discription;
+        color: #000000;
+    }
+
+    .sp-fix-height {
+        a {
+            text-decoration: none;
+            color: #000000;
+
+            img {
+                height: 250px;
+                overflow: hidden;
+                position: relative;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            span {
+                font-size: $fz-discription;
+                font-family: $ff-discriptions;
+            }
+
+            .price-present {
+                color: $background-header;
+            }
+
+            .price-old {
+                text-decoration: line-through;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, .7);
+            transform: translateY(-10px);
+            transition: all ease-in 0.3s;
+        }
     }
 }
