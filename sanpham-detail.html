@@ -30,13 +30,27 @@
             <!-- menu-mobile -->
             <nav id="menu">
                 <ul>
-                    <li><a href="index.html" class="active-2">Trang chủ</a></li>
-                    <li><a href="intro.html">Về chúng tôi</a></li>
-                    <li><a href="project.html">dụ án</a></li>
-                    <li><a href="">Tin tức</a></li>
-                    <!-- <li><a href="#">dịch vụ</a></li> -->
-                    <li><a href="contact.html">liên hệ</a></li>
+
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="introduce.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="sanpham.html">Sản phẩm </a>
+                    </li>
+                    <li>
+                        <a href="tintuc.html">Tin tức và sự kiện</a>
+                    </li>
+                    <li>
+                        <a href="tuyendaily.html">Tuyển đại lý</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Liên hệ</a>
+                    </li>
                 </ul>
+
             </nav>
             <!-- end -->
 
@@ -131,7 +145,14 @@
         <section>
             <div class="sanpham-detail">
                 <div class="container">
-                    <h2 class="text-left pt-3 pb-3">Chi tiết sản phẩm</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                            <li class="breadcrumb-item"><a href="sanpham.html">Sản phẩm</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Trà tẩm hoa nhài</li>
+                        </ol>
+                    </nav>
+                    <h2 class="text-left pt-2 pb-3">Chi tiết sản phẩm</h2>
                     <div class="row m-0 p-0">
                         <div class="col-md-5">
                             <div class="item">
@@ -226,7 +247,7 @@
                             <div class="item">
                                 <a href="sanpham-detail.html">
                                     <img src="https://bizweb.dktcdn.net/thumb/large/100/152/177/products/sp41pnge6059db2e3b64dbf9323f62.png?v=1479702982307"
-                                    alt="" class="img-fluid item-img-sp">
+                                        alt="" class="img-fluid item-img-sp">
                                     <div class="name-sp text-center">
                                         <span class="name d-block">Trà ướp hoa nhài</span>
                                         <p class="">
@@ -241,7 +262,7 @@
                             <div class="item">
                                 <a href="sanpham-detail.html">
                                     <img src="https://bizweb.dktcdn.net/thumb/large/100/152/177/products/1png.png?v=1479702985350"
-                                    alt="" class="img-fluid item-img-sp">
+                                        alt="" class="img-fluid item-img-sp">
                                     <div class="name-sp text-center">
                                         <span class="name d-block">Trà ướp hoa nhài</span>
                                         <p class="">
@@ -256,7 +277,7 @@
                             <div class="item">
                                 <a href="sanpham-detail.html">
                                     <img src="https://bizweb.dktcdn.net/thumb/large/100/152/177/products/maxresdefault.jpg?v=1479713525487"
-                                    alt="" class="img-fluid item-img-sp">
+                                        alt="" class="img-fluid item-img-sp">
                                     <div class="name-sp text-center">
                                         <span class="name d-block">Trà ướp hoa nhài</span>
                                         <p class="">
@@ -403,7 +424,7 @@
             loop: true,
             margin: 30,
             responsiveClass: true,
-            autoplay:true,
+            autoplay: true,
             responsive: {
                 0: {
                     items: 1,

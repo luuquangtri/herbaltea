@@ -1671,7 +1671,7 @@ figure.effect-sadie:hover p {
     }
 
     span.price-present {
-        color: red;
+        color: $background-header;
         font-family: $ff-discriptions;
         padding-right: 20px;
         font-size: 21px;
@@ -1741,6 +1741,20 @@ figure.effect-sadie:hover p {
             height: 200px;
             overflow: hidden;
         }
+    }
+    .breadcrumb{
+        background: transparent;
+        margin-bottom: 0 !important;
+        a{
+            font-size: $fz-discription;
+            font-family: $ff-discriptions;
+            color: $background-header;
+            text-decoration: none;
+        }
+    }
+    .breadcrumb-item.active{
+        font-size: $fz-discription;
+            font-family: $ff-discriptions;
     }
 }
 
@@ -1824,5 +1838,30 @@ figure.effect-sadie:hover p {
             transform: translateY(-10px);
             transition: all ease-in 0.3s;
         }
+    }
+    .page-link{
+        color: #000000;
+    }
+    .page-item.active .page-link{
+        background: $background-header;
+        border: $background-header;
+    }
+    .page-link:focus{
+        outline: none ;
+        box-shadow: none;
+    }
+    .breadcrumb{
+        background: transparent;
+        margin-bottom: 0 !important;
+        a{
+            font-size: $fz-discription;
+            font-family: $ff-discriptions;
+            color: $background-header;
+            text-decoration: none;
+        }
+    }
+    .breadcrumb-item.active{
+        font-size: $fz-discription;
+            font-family: $ff-discriptions;
     }
 }

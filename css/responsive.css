@@ -3,6 +3,15 @@
         opacity: 1;
         width: 30%;
     }
+    .sp-view-full h2{
+        font-size:21px;
+    }
+    .sp-view-full .nav-link{
+        font-size: 14px;
+    }
+    .sp-view-full .sp-fix-height a img{
+        height: 200px;
+    }
     .sanpham-detail p{
         font-size: 14px;
     }
