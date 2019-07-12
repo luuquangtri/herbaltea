@@ -1127,6 +1127,19 @@ figure.effect-sadie:hover p {
   font-family: "UTM Avo";
   padding-right: 20px;
   font-size: 21px; }
+.sanpham-detail .touchpin .input-group {
+  width: 30%;
+  margin-top: -5px;
+  margin-left: 10px; }
+.sanpham-detail .touchpin .input-group > .custom-select:not(:first-child),
+.sanpham-detail .touchpin .input-group > .form-control:not(:first-child) {
+  text-align: center; }
+.sanpham-detail .btn::before {
+  background: transparent; }
+.sanpham-detail .input-group > .input-group-append > .btn, .sanpham-detail .input-group > .input-group-prepend > .btn {
+  color: #000000; }
+  .sanpham-detail .input-group > .input-group-append > .btn:hover, .sanpham-detail .input-group > .input-group-prepend > .btn:hover {
+    background: transparent; }
 .sanpham-detail span.price-old {
   text-decoration: line-through;
   font-family: "UTM Avo"; }

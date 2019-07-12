@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/css plugin/site-pack.css">
     <link rel="stylesheet" href="css/css plugin/animate.css">
     <link rel="stylesheet" href="font/font/font.css">
+    <!-- <link rel="stylesheet" href="css/css plugin/jquery.bootstrap-touchspin.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -140,10 +141,28 @@
             <div class="sp-view-full">
                 <div class="container">
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
+                        <ol class="breadcrumb float-left">
                             <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Sản Phẩm</li>
                         </ol>
+                        <div class="filter mt-2  d-flex float-right">
+                            <label for="" class="mt-1 pr-2">Xếp theo: </label>
+                            <select style="border: 1px solid #efefef;font-family: 'UTM Avo';">
+                                <option>Vị trí</option>
+                                <option>Tên: A tới Z</option>
+                                <option>Tên: Z tới A</option>
+                                <option>Giá: cao tới thấp</option>
+                                <option>Ngày tạo</option>
+                            </select>
+                            <label for="" class="ml-2 mt-1 pr-2 ">Hiển thị: </label>
+                            <select style="border: 1px solid #efefef;font-family: 'UTM Avo';">
+                                <option>4</option>
+                                <option>8</option>
+                                <option>16</option>
+                                <option>32</option>
+                            </select>
+                        </div>
+                        <div class="clearfix"></div>
                     </nav>
                     <div class="row m-0 p-0">
                         <div class="col-md-3">
@@ -387,7 +406,8 @@
     <script src="theme/popper.js"></script>
     <script src="theme/pluggin/jquery.mmenu.js"></script>
     <script src="theme/pluggin/wow.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script> -->
+    <!-- <script src="theme/pluggin/jquery.bootstrap-touchspin.min.js"></script> -->
     <script src="theme/main.js"></script>
     <script>
         new WOW().init();

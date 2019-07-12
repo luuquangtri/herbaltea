@@ -12,6 +12,9 @@
     .sp-view-full .sp-fix-height a img{
         height: 200px;
     }
+    .sanpham-detail .touchpin .input-group{
+        width: 40%;
+    }
     .sanpham-detail p{
         font-size: 14px;
     }
@@ -196,6 +199,9 @@
         font-size: 14px;
         padding: 0;
     } */
+    .sp-view-full .filter select{
+        width: 20% !important;
+    }
     .product-view-all .product-view .sp-fix-height a img {
         height: 250px;
     }
@@ -700,5 +706,11 @@
     }
     .sanpham-detail p .stocking{
         font-size: 10px;
+    }
+    .sp-view-full .filter select{
+        width: 20% !important;
+    }
+    .sanpham-detail .touchpin .input-group{
+        width: 50%;
     }
 }
